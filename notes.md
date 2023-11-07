@@ -3,7 +3,7 @@
 - Compute result
   - Addition
     - "1", "+", "1" -> 2
-    - "3", "+", "0" -> 3
+    - ~~"3", "+", "0" -> 3~~
   - Multiplication
   - Division
   - Subtraction

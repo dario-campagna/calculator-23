@@ -20,4 +20,9 @@ public class ComputeResult {
     void three_plus_zero_is_three() {
         assertEquals(3, new Calculator().compute("3", "+", "0"));
     }
+
+    @Test
+    void one_plus_one_is_2() {
+        assertEquals(2, new Calculator().compute("1", "+", "1"));
+    }
 }

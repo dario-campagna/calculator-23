@@ -7,6 +7,6 @@ public class Calculator {
     }
 
     public int compute(String number, String s, String number1) {
-        return 3;
+        return Integer.parseInt(number) + Integer.parseInt(number1);
     }
 }
