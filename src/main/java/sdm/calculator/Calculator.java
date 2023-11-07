@@ -2,11 +2,11 @@ package sdm.calculator;
 
 public class Calculator {
 
-    public int compute(String number) {
-        return Integer.parseInt(number);
+    public int compute(String...args) {
+        if (args.length == 1){
+            return Integer.parseInt(args[0]);
+        }
+        return Integer.parseInt(args[0]) + Integer.parseInt(args[2]);
     }
-
-    public int compute(String number, String s, String number1) {
-        return Integer.parseInt(number) + Integer.parseInt(number1);
-    }
+    
 }
