@@ -1,0 +1,15 @@
+- Print result
+  - Print on standard output
+- Compute result
+  - Addition
+    - "1", "+", "1" -> 2
+    - "3", "+", "0" -> 3
+  - Multiplication
+  - Division
+  - Subtraction
+  - Single number
+    - ~~"0" -> 0~~
+    - ~~"4" -> 4~~
+    - "14.3" -> 14.3
+- Integers
+- Decimals
