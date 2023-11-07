@@ -15,4 +15,9 @@ public class ComputeResult {
     void string_4_is_4() {
         assertEquals(4, new Calculator().compute("4"));
     }
+
+    @Test
+    void three_plus_zero_is_three() {
+        assertEquals(3, new Calculator().compute("3", "+", "0"));
+    }
 }
